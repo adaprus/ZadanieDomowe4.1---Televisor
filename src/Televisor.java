@@ -1,18 +1,14 @@
 public class Televisor {
     boolean status = false;
 
-    boolean turnOn(){
+    void turnOn(){
 
         status = true;
-
-        return status;
     }
 
-    boolean turnOff(){
+    void turnOff(){
 
-        status =! turnOn();
-
-        return status;
+        status = false;
     }
 
     void showStatus(boolean status){
